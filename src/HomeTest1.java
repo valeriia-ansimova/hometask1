@@ -23,13 +23,11 @@ public class HomeTest1 {
         d = a + b * c;
         System.out.println(d);
 
-
         a = 55;
         b = 9;
         c = 9;
         d = (a + b) % c;
         System.out.println(d);
-
 
         int e;
         a = 20;
@@ -40,8 +38,6 @@ public class HomeTest1 {
 
         System.out.println(e);
 
-
-
         a = 5;
         b = 15;
         c = 3;
@@ -50,7 +46,6 @@ public class HomeTest1 {
         int f = 3;
         int g = a + b / c * d - e % f;
         System.out.println(g);
-
 
         //5
         Scanner sc = new Scanner(System.in);
@@ -79,7 +74,6 @@ public class HomeTest1 {
         System.out.println("Perimetr is " + perimeter);
 
         //9
-
         System.out.println("Input first number: ");
         int num3 = sc.nextInt();
         System.out.println("Input second number:  ");
@@ -90,9 +84,7 @@ public class HomeTest1 {
         int num6 = sc.nextInt();
         System.out.println("Enter fifth number:  ");
         int num7 = sc.nextInt();
-
         System.out.println("Average of the numbers is: " + ((num3 + num4 + num5 + num6 + num7)/5));
-
     }
 
 }
